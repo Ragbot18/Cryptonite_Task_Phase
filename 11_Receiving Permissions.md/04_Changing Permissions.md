@@ -12,7 +12,9 @@ cat /flag
 
 ### Solution:
 
-Used the `chmod` command with `a+r` argument to give the read permission to all users. Then, read the file to retrieve the flag.
+- Used the `chmod` command with `a+r` argument to give the read permission to all users. 
+
+- Then, read the file to retrieve the flag.
 
 
 ### Incorrect Tangents:
@@ -21,15 +23,15 @@ I first tried using `u+r` but it didn't give the permission as the user was root
 
 ### What I Learned: 
 
-`chmod` function can be used to change file permissions. 
+- `chmod` function can be used to change file permissions. 
 
-Format: `chmod u/a/g/o+rwx filename` 
+- Format: `chmod u/a/g/o+rwx filename` 
 
-u: User
-a: All Users
-g: Group
-o: Others
-r: Read
-w: Write
-x: Execute 
-a: Append
+`u`: User
+`a`: All Users
+`g`: Group
+`o`: Others </br>
+`r`: Read
+`w`: Write
+`x`: Execute 
+`a`: Append

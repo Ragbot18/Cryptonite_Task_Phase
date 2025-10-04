@@ -13,7 +13,10 @@ cat not-the-flag
 
 ### Solution:
 
-First, I listed all the files to look for the file contaning the flag `not-the-flag`. Then, changed the group of the file to `hacker` so that we can access it as the user `hacker`. Finally, read the file to retrieve the flag.
+- First, I listed all the files to look for the file contaning the flag `not-the-flag`.
+- Then, changed the group of the file to `hacker` so that we can access it as the user `hacker`. 
+
+- Finally, read the file to retrieve the flag.
 
 ### What I Learned: 
 

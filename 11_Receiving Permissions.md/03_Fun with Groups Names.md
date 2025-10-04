@@ -14,7 +14,11 @@ cat not-the-flag
 
 ### Solution:
 
-First, I used `id` command to find the group which the user `hacker` belongs to. Then, listed the files to find the file containing the flag. Then changed the group to `grp12342` for the file and finally read the file to retrieve the flag.
+- First, I used `id` command to find the group which the user `hacker` belongs to. 
+
+- Then, listed the files to find the file containing the flag. 
+
+- Then changed the group to `grp12342` for the file and finally read the file to retrieve the flag.
 
 ### What I Learned: 
 

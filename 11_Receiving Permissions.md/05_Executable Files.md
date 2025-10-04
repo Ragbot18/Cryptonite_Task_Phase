@@ -12,7 +12,9 @@ chmod a+x /challenge/run
 
 ### Solution:
 
-Used the `chmod` command to give executing permission of the program to all users. Then, ran the program to retrieve the flag.
+- Used the `chmod` command to give executing permission of the program to all users. 
+
+- Then, ran the program to retrieve the flag.
 
 
 
